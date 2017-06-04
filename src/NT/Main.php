@@ -16,7 +16,7 @@ class Main extends PluginBase implements Listener
         $this->getServer()->egtPluginManager()->registerEvents($this, $this);
     }
 
-    public function onCommand(CommandSender $sender, Command $command, array $args, $label)
+    public function onCommand(CommandSender $sender, Command $command, $label, array $args)
     {
         switch ($command->getName()) {
             case "setitemname":

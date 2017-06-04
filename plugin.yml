@@ -2,4 +2,8 @@ name: G2PsetItemName
 author: G2P
 api: 3.0.0-ALPHA5
 version: 0.1
-main: 
+main: NT\Main
+
+commands:
+ setitemname:
+  description: ....

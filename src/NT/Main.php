@@ -1,6 +1,6 @@
 <?php
 
-namespace G2P;
+namespace NT;
 
 use pocketmine\utils\TextFormat;
 use pocketmine\plugin\PluginBase;
